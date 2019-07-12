@@ -1,0 +1,96 @@
+Mon, 29 Apr 2019 22:39:51 WARNING From train.py:139: map_and_batch (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.experimental.map_and_batch(...)`.
+Mon, 29 Apr 2019 22:39:51 WARNING From train.py:138: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, use
+    tf.py_function, which takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    
+Mon, 29 Apr 2019 22:39:51 WARNING From D:\softwares\python3.7\lib\site-packages\tensorflow\python\data\ops\dataset_ops.py:1419: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+Mon, 29 Apr 2019 22:40:12 WARNING From D:\softwares\python3.7\lib\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+Mon, 29 Apr 2019 22:40:12 INFO Restoring parameters from ./data/darknet_weights/yolov3.ckpt
+Mon, 29 Apr 2019 22:41:30 INFO Epoch: 0, global_step: 1, total_loss: 7596.950, loss_xy: 1.821, loss_wh: 54.173, loss_conf: 7529.368, loss_class: 11.587
+Mon, 29 Apr 2019 22:41:54 INFO Epoch: 0, global_step: 2, total_loss: 10345.205, loss_xy: 1.454, loss_wh: 1021.302, loss_conf: 9314.592, loss_class: 7.857
+Mon, 29 Apr 2019 22:42:33 INFO Epoch: 1, global_step: 3, total_loss: 7562.862, loss_xy: 1.367, loss_wh: 149.745, loss_conf: 7401.514, loss_class: 10.237
+Mon, 29 Apr 2019 22:43:02 INFO Epoch: 1, global_step: 4, total_loss: 5303.528, loss_xy: 1.325, loss_wh: 33.378, loss_conf: 5259.532, loss_class: 9.295
+Mon, 29 Apr 2019 22:43:44 INFO Epoch: 2, global_step: 5, total_loss: 3854.664, loss_xy: 1.219, loss_wh: 22.113, loss_conf: 3823.574, loss_class: 7.758
+Mon, 29 Apr 2019 22:44:14 INFO Epoch: 2, global_step: 6, total_loss: 2991.121, loss_xy: 1.069, loss_wh: 20.775, loss_conf: 2962.527, loss_class: 6.750
+Mon, 29 Apr 2019 22:44:56 INFO Epoch: 3, global_step: 7, total_loss: 2497.010, loss_xy: 1.054, loss_wh: 5.292, loss_conf: 2484.256, loss_class: 6.408
+Mon, 29 Apr 2019 22:45:25 INFO Epoch: 3, global_step: 8, total_loss: 2094.465, loss_xy: 1.134, loss_wh: 2.210, loss_conf: 2084.761, loss_class: 6.360
+Mon, 29 Apr 2019 22:46:03 INFO Epoch: 4, global_step: 9, total_loss: 1795.639, loss_xy: 0.976, loss_wh: 4.490, loss_conf: 1784.292, loss_class: 5.880
+Mon, 29 Apr 2019 22:46:33 INFO Epoch: 4, global_step: 10, total_loss: 1583.838, loss_xy: 0.959, loss_wh: 3.438, loss_conf: 1573.167, loss_class: 6.274
+Mon, 29 Apr 2019 22:47:18 INFO Epoch: 5, global_step: 11, total_loss: 1398.773, loss_xy: 0.891, loss_wh: 2.422, loss_conf: 1389.830, loss_class: 5.630
+Mon, 29 Apr 2019 22:47:48 INFO Epoch: 5, global_step: 12, total_loss: 1247.675, loss_xy: 0.994, loss_wh: 1.665, loss_conf: 1239.906, loss_class: 5.110
+Mon, 29 Apr 2019 22:48:25 INFO Epoch: 6, global_step: 13, total_loss: 1093.868, loss_xy: 0.970, loss_wh: 1.265, loss_conf: 1086.775, loss_class: 4.859
+Mon, 29 Apr 2019 22:48:52 INFO Epoch: 6, global_step: 14, total_loss: 988.633, loss_xy: 0.904, loss_wh: 1.220, loss_conf: 981.959, loss_class: 4.550
+Mon, 29 Apr 2019 22:49:34 INFO Epoch: 7, global_step: 15, total_loss: 905.518, loss_xy: 1.003, loss_wh: 1.643, loss_conf: 898.251, loss_class: 4.620
+Mon, 29 Apr 2019 22:50:05 INFO Epoch: 7, global_step: 16, total_loss: 821.371, loss_xy: 0.844, loss_wh: 1.353, loss_conf: 815.488, loss_class: 3.685
+Mon, 29 Apr 2019 22:50:49 INFO Epoch: 8, global_step: 17, total_loss: 758.527, loss_xy: 0.896, loss_wh: 1.159, loss_conf: 752.574, loss_class: 3.899
+Mon, 29 Apr 2019 22:51:16 INFO Epoch: 8, global_step: 18, total_loss: 695.483, loss_xy: 0.931, loss_wh: 0.905, loss_conf: 689.721, loss_class: 3.927
+Mon, 29 Apr 2019 22:51:56 INFO Epoch: 9, global_step: 19, total_loss: 644.931, loss_xy: 0.837, loss_wh: 0.659, loss_conf: 639.697, loss_class: 3.737
+Mon, 29 Apr 2019 22:52:27 INFO Epoch: 9, global_step: 20, total_loss: 603.281, loss_xy: 0.978, loss_wh: 0.808, loss_conf: 598.045, loss_class: 3.450
+Mon, 29 Apr 2019 22:53:12 INFO Epoch: 10, global_step: 21, total_loss: 561.605, loss_xy: 1.000, loss_wh: 0.513, loss_conf: 556.513, loss_class: 3.579
+Mon, 29 Apr 2019 22:53:41 INFO Epoch: 10, global_step: 22, total_loss: 524.827, loss_xy: 0.732, loss_wh: 0.479, loss_conf: 520.589, loss_class: 3.028
+Mon, 29 Apr 2019 22:54:25 INFO Epoch: 11, global_step: 23, total_loss: 496.277, loss_xy: 0.820, loss_wh: 0.471, loss_conf: 491.651, loss_class: 3.335
+Mon, 29 Apr 2019 22:54:53 INFO Epoch: 11, global_step: 24, total_loss: 467.119, loss_xy: 0.974, loss_wh: 0.640, loss_conf: 462.728, loss_class: 2.776
+Mon, 29 Apr 2019 22:55:38 INFO Epoch: 12, global_step: 25, total_loss: 441.391, loss_xy: 0.989, loss_wh: 0.534, loss_conf: 436.874, loss_class: 2.993
+Mon, 29 Apr 2019 22:56:14 INFO Epoch: 12, global_step: 26, total_loss: 419.284, loss_xy: 0.726, loss_wh: 0.422, loss_conf: 415.373, loss_class: 2.763
+Mon, 29 Apr 2019 22:56:59 INFO Epoch: 13, global_step: 27, total_loss: 396.167, loss_xy: 0.843, loss_wh: 0.332, loss_conf: 391.973, loss_class: 3.019
+Mon, 29 Apr 2019 22:57:29 INFO Epoch: 13, global_step: 28, total_loss: 378.820, loss_xy: 0.909, loss_wh: 0.400, loss_conf: 375.242, loss_class: 2.269
+Mon, 29 Apr 2019 22:58:11 INFO Epoch: 14, global_step: 29, total_loss: 358.673, loss_xy: 0.930, loss_wh: 0.264, loss_conf: 355.064, loss_class: 2.416
+Mon, 29 Apr 2019 22:58:40 INFO Epoch: 14, global_step: 30, total_loss: 348.061, loss_xy: 0.743, loss_wh: 0.372, loss_conf: 344.313, loss_class: 2.632
+Mon, 29 Apr 2019 22:59:25 INFO Epoch: 15, global_step: 31, total_loss: 327.684, loss_xy: 0.799, loss_wh: 0.206, loss_conf: 324.217, loss_class: 2.461
+Mon, 29 Apr 2019 22:59:55 INFO Epoch: 15, global_step: 32, total_loss: 316.169, loss_xy: 0.901, loss_wh: 0.318, loss_conf: 312.860, loss_class: 2.090
+Mon, 29 Apr 2019 23:00:40 INFO Epoch: 16, global_step: 33, total_loss: 302.253, loss_xy: 0.865, loss_wh: 0.293, loss_conf: 298.899, loss_class: 2.196
+Mon, 29 Apr 2019 23:01:11 INFO Epoch: 16, global_step: 34, total_loss: 289.379, loss_xy: 0.774, loss_wh: 0.235, loss_conf: 286.362, loss_class: 2.009
+Mon, 29 Apr 2019 23:01:56 INFO Epoch: 17, global_step: 35, total_loss: 278.614, loss_xy: 0.804, loss_wh: 0.234, loss_conf: 275.490, loss_class: 2.086
+Mon, 29 Apr 2019 23:02:26 INFO Epoch: 17, global_step: 36, total_loss: 270.292, loss_xy: 0.848, loss_wh: 0.214, loss_conf: 267.488, loss_class: 1.742
+Mon, 29 Apr 2019 23:03:09 INFO Epoch: 18, global_step: 37, total_loss: 260.479, loss_xy: 0.803, loss_wh: 0.191, loss_conf: 257.587, loss_class: 1.898
+Mon, 29 Apr 2019 23:03:38 INFO Epoch: 18, global_step: 38, total_loss: 249.837, loss_xy: 0.822, loss_wh: 0.155, loss_conf: 247.240, loss_class: 1.620
+Mon, 29 Apr 2019 23:04:22 INFO Epoch: 19, global_step: 39, total_loss: 242.994, loss_xy: 0.774, loss_wh: 0.164, loss_conf: 240.295, loss_class: 1.760
+Mon, 29 Apr 2019 23:04:57 INFO Epoch: 19, global_step: 40, total_loss: 235.175, loss_xy: 0.837, loss_wh: 0.168, loss_conf: 232.696, loss_class: 1.475
+Mon, 29 Apr 2019 23:05:48 INFO Epoch: 20, global_step: 41, total_loss: 227.266, loss_xy: 0.854, loss_wh: 0.162, loss_conf: 224.758, loss_class: 1.493
+Mon, 29 Apr 2019 23:06:20 INFO Epoch: 20, global_step: 42, total_loss: 221.355, loss_xy: 0.695, loss_wh: 0.174, loss_conf: 218.940, loss_class: 1.546
+Mon, 29 Apr 2019 23:07:05 INFO Epoch: 21, global_step: 43, total_loss: 214.819, loss_xy: 0.776, loss_wh: 0.150, loss_conf: 212.503, loss_class: 1.390
+Mon, 29 Apr 2019 23:07:34 INFO Epoch: 21, global_step: 44, total_loss: 207.651, loss_xy: 0.765, loss_wh: 0.129, loss_conf: 205.333, loss_class: 1.424
+Mon, 29 Apr 2019 23:08:18 INFO Epoch: 22, global_step: 45, total_loss: 203.167, loss_xy: 0.738, loss_wh: 0.115, loss_conf: 200.873, loss_class: 1.442
+Mon, 29 Apr 2019 23:08:50 INFO Epoch: 22, global_step: 46, total_loss: 196.383, loss_xy: 0.770, loss_wh: 0.094, loss_conf: 194.406, loss_class: 1.113
+Mon, 29 Apr 2019 23:09:37 INFO Epoch: 23, global_step: 47, total_loss: 191.105, loss_xy: 0.762, loss_wh: 0.097, loss_conf: 189.102, loss_class: 1.144
+Mon, 29 Apr 2019 23:10:10 INFO Epoch: 23, global_step: 48, total_loss: 187.662, loss_xy: 0.724, loss_wh: 0.107, loss_conf: 185.554, loss_class: 1.277
+Mon, 29 Apr 2019 23:10:55 INFO Epoch: 24, global_step: 49, total_loss: 182.183, loss_xy: 0.746, loss_wh: 0.096, loss_conf: 180.209, loss_class: 1.131
+Mon, 29 Apr 2019 23:11:28 INFO Epoch: 24, global_step: 50, total_loss: 177.762, loss_xy: 0.721, loss_wh: 0.103, loss_conf: 175.875, loss_class: 1.063
+Mon, 29 Apr 2019 23:12:16 INFO Epoch: 25, global_step: 51, total_loss: 173.594, loss_xy: 0.676, loss_wh: 0.106, loss_conf: 171.722, loss_class: 1.090
+Mon, 29 Apr 2019 23:12:46 INFO Epoch: 25, global_step: 52, total_loss: 169.595, loss_xy: 0.783, loss_wh: 0.086, loss_conf: 167.811, loss_class: 0.915
+Mon, 29 Apr 2019 23:13:34 INFO Epoch: 26, global_step: 53, total_loss: 165.968, loss_xy: 0.718, loss_wh: 0.079, loss_conf: 164.205, loss_class: 0.965
+Mon, 29 Apr 2019 23:14:05 INFO Epoch: 26, global_step: 54, total_loss: 161.908, loss_xy: 0.689, loss_wh: 0.094, loss_conf: 160.232, loss_class: 0.893
+Mon, 29 Apr 2019 23:14:54 INFO Epoch: 27, global_step: 55, total_loss: 158.246, loss_xy: 0.732, loss_wh: 0.065, loss_conf: 156.505, loss_class: 0.944
+Mon, 29 Apr 2019 23:15:26 INFO Epoch: 27, global_step: 56, total_loss: 155.335, loss_xy: 0.631, loss_wh: 0.104, loss_conf: 153.836, loss_class: 0.764
+Mon, 29 Apr 2019 23:16:13 INFO Epoch: 28, global_step: 57, total_loss: 152.074, loss_xy: 0.700, loss_wh: 0.096, loss_conf: 150.442, loss_class: 0.835
+Mon, 29 Apr 2019 23:16:45 INFO Epoch: 28, global_step: 58, total_loss: 148.739, loss_xy: 0.635, loss_wh: 0.078, loss_conf: 147.270, loss_class: 0.757
+Mon, 29 Apr 2019 23:17:29 INFO Epoch: 29, global_step: 59, total_loss: 145.854, loss_xy: 0.657, loss_wh: 0.083, loss_conf: 144.391, loss_class: 0.723
+Mon, 29 Apr 2019 23:17:58 INFO Epoch: 29, global_step: 60, total_loss: 142.287, loss_xy: 0.664, loss_wh: 0.078, loss_conf: 140.763, loss_class: 0.782
+Mon, 29 Apr 2019 23:18:45 INFO Epoch: 30, global_step: 61, total_loss: 139.972, loss_xy: 0.657, loss_wh: 0.068, loss_conf: 138.619, loss_class: 0.628
+Mon, 29 Apr 2019 23:19:18 INFO Epoch: 30, global_step: 62, total_loss: 137.264, loss_xy: 0.633, loss_wh: 0.070, loss_conf: 135.736, loss_class: 0.825
+Mon, 29 Apr 2019 23:20:04 INFO Epoch: 31, global_step: 63, total_loss: 134.932, loss_xy: 0.700, loss_wh: 0.078, loss_conf: 133.540, loss_class: 0.614
+Mon, 29 Apr 2019 23:20:36 INFO Epoch: 31, global_step: 64, total_loss: 131.773, loss_xy: 0.534, loss_wh: 0.057, loss_conf: 130.425, loss_class: 0.757
+Mon, 29 Apr 2019 23:21:18 INFO Epoch: 32, global_step: 65, total_loss: 129.722, loss_xy: 0.594, loss_wh: 0.064, loss_conf: 128.409, loss_class: 0.655
+Mon, 29 Apr 2019 23:21:47 INFO Epoch: 32, global_step: 66, total_loss: 127.324, loss_xy: 0.643, loss_wh: 0.059, loss_conf: 125.994, loss_class: 0.628
+Mon, 29 Apr 2019 23:22:27 INFO Epoch: 33, global_step: 67, total_loss: 125.042, loss_xy: 0.547, loss_wh: 0.067, loss_conf: 123.784, loss_class: 0.644
+Mon, 29 Apr 2019 23:22:56 INFO Epoch: 33, global_step: 68, total_loss: 123.223, loss_xy: 0.667, loss_wh: 0.061, loss_conf: 121.935, loss_class: 0.559
+Mon, 29 Apr 2019 23:23:39 INFO Epoch: 34, global_step: 69, total_loss: 120.738, loss_xy: 0.545, loss_wh: 0.064, loss_conf: 119.506, loss_class: 0.623
+Mon, 29 Apr 2019 23:24:08 INFO Epoch: 34, global_step: 70, total_loss: 119.048, loss_xy: 0.636, loss_wh: 0.076, loss_conf: 117.825, loss_class: 0.509
+Mon, 29 Apr 2019 23:24:48 INFO Epoch: 35, global_step: 71, total_loss: 116.910, loss_xy: 0.547, loss_wh: 0.057, loss_conf: 115.775, loss_class: 0.532
+Mon, 29 Apr 2019 23:25:18 INFO Epoch: 35, global_step: 72, total_loss: 114.612, loss_xy: 0.596, loss_wh: 0.048, loss_conf: 113.419, loss_class: 0.548
+Mon, 29 Apr 2019 23:26:01 INFO Epoch: 36, global_step: 73, total_loss: 112.768, loss_xy: 0.579, loss_wh: 0.050, loss_conf: 111.653, loss_class: 0.485
+Mon, 29 Apr 2019 23:26:30 INFO Epoch: 36, global_step: 74, total_loss: 111.626, loss_xy: 0.512, loss_wh: 0.059, loss_conf: 110.520, loss_class: 0.535
+Mon, 29 Apr 2019 23:27:10 INFO Epoch: 37, global_step: 75, total_loss: 109.806, loss_xy: 0.565, loss_wh: 0.059, loss_conf: 108.746, loss_class: 0.436
+Mon, 29 Apr 2019 23:27:40 INFO Epoch: 37, global_step: 76, total_loss: 107.786, loss_xy: 0.484, loss_wh: 0.061, loss_conf: 106.714, loss_class: 0.527
+Mon, 29 Apr 2019 23:28:23 INFO Epoch: 38, global_step: 77, total_loss: 106.002, loss_xy: 0.530, loss_wh: 0.058, loss_conf: 104.971, loss_class: 0.443
