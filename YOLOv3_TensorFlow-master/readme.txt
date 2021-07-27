@@ -1,4 +1,4 @@
-此文件夹的大部分代码来自于github开源项目。
+此文件夹的大部分代码来自于github开源项目 YOLOv3_TensorFlow-master
 在下仅增加了整合的三个文件：
 usage_function.py
 UnUiTest.py
